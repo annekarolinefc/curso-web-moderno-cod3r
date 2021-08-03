@@ -1,12 +1,14 @@
-// AQUI ESTÁ SEU COMENTÁRIO
-
-//console.log é usado para exibir algo na tela do computador
-console.log("Olá!");
+//Comentário de uma linha
+console.log("Linha 1");
 
 /*
-Comentários de 
-múltiplas
-linhas */
-console.log("Olá!");
+Comentário de
+múltiplas linhas
+*/
+console.log("Linha 2");
 
-console.log("Olá!"); //comentário de linha
+/*
+ * Comentário de
+ * múltiplas linhas
+ */
+console.log("Linha 3");
