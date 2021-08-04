@@ -1,0 +1,73 @@
+<!--https://www.udemy.com/course/criando-site-html-css-e-javascript/learn/lecture/16537918#overview-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/FrameWorks/jQuery/menu/css/style.css">
+</head>
+
+<body>
+    <!--NAVEGAÇÃO-->
+    <nav class="navigation">
+        <div class="navigation-inner site-container">
+            <img class="logo" src=" " alt=" ">
+            <div class="main-navigation">
+                <ul class="main-navigation-ul">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                    <li>
+                        <a href="">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="">Trabalhe Conosco</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="btnBurguer" class="burger-container" onclick="menuFn(this)">
+                <div class=" bar1 "></div>
+                <div class="bar2 "></div>
+                <div class="bar3 "></div>
+            </div>
+            <script>
+                function menuFn(x) {
+                    x.classList.toggle("change");
+                }
+            </script>
+        </div>
+    </nav>
+    <section>
+        <div>
+            <div>
+                <img src="https://producaodejogos.com/wp-content/uploads/2020/06/programador-de-jogos-tela-c%C3%B3digo-1080x720.jpg" alt="">
+            </div>
+            <div>
+                <span>Olá, me chamo</span>
+                <h2>Anne Karoline</h2>
+            </div>
+            <div>
+                <h2>Fortunato do Carmo</h2>
+                <span>Texto qualquer</span>
+            </div>
+            <p>Alguma frase de impacto</p>
+            <a href="" class="">Leia mais...</a>
+        </div>
+    </section>
+
+
+    <script src="/FrameWorks/jQuery/menu/js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
