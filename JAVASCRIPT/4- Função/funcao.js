@@ -17,3 +17,19 @@ console.log(result1);
 
 let result2 = calculator(12, 3, '+');
 console.log(result2);
+
+//____________________________________________
+
+let celular = function() {
+    //atributo
+    this.cor = "preto";
+    //metodo
+    this.ligar = function() {
+        console.log("ligando...")
+    }
+}
+
+let objeto = new celular();
+
+console.log(objeto)
+console.log(objeto.ligar())
