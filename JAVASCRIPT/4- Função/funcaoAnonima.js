@@ -13,3 +13,4 @@ const imprimirResultado = function(a, b, operacao = soma) {
 imprimirResultado(3, 4)
 
 imprimirResultado(3, 4, function(x, y) { return x - y })
+imprimirResultado(1, 5, (x, y) => x * y)
