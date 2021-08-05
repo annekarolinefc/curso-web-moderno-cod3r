@@ -6,12 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiros passos</title>
+    <link rel="stylesheet" href="/FrameWorks/jQuery/4- Ler e Editar conteudo/style.css">
 </head>
 
 <body>
-    <h1>Olá Mundo</h1>
+    <h1>Ler e editar conteúdo</h1>
+    <h3>Selecionando elementos</h3>
+
+    <br>
+    <hr>
+    <br>
+    <ul>
+        <li>Jamilton</li>
+        <li>Anne</li>
+        <li>Pedro</li>
+        <li>João</li>
+        <li>Joana</li>
+    </ul>
+    <div class="conteudo">
+        <span>Conteudo</span>
+    </div>
+    <br>
+    <hr>
+    <button acao-clique>Clique</button>
     <script src="jquery.js"></script>
-    <script src="script_jquery.js"></script>
+    <script>
+        $('[acao-clique]').click(function() {
+                const res = $('#conteudo').html(); //recuperando o valor
+                console.log(res);
+                const res2 = $('#conteudo').text(); //recuperando o texto
+                console.log(res2);
+
+                $('#conteudo').text("Olá mundo!")
+
+            })
+            //$('h1').hide();
+    </script>
 </body>
 
 </html>
