@@ -6,12 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiros passos</title>
+    <link rel="stylesheet" href="/FrameWorks/jQuery/2- Criando Elementos/style.css">
 </head>
 
 <body>
+    <h1>Configurando e vendo na prática</h1>
+    <h2>Título escondido em 5 segundo.</h2>
+    <h3>Varios recursos novos.</h3>
+    <p>Paragrafo lorem ipsum</p>
+    <p>Paragrafo lorem ipsum</p>
+    <div class="conteudo">Conteudo do Site</div>
+    <span>Texto com estilo CSS</span>
+    <ul id="lista">
+        <li ativo="sim">Anne</li>
+        <li ativo="nao">Pedro</li>
+        <li>João</li>
+    </ul>
 
-    <script src="jquery.js"></script>
+    <ul>
+        <li>Anne</li>
+        <li>Pedro</li>
+        <li>João</li>
+    </ul>
+
+    <button class="button">Clique</button>
+
     <script src="script_jquery.js"></script>
+    <script type="text/javascript">
+
+       $(function(){
+        $("#button").click(function () {
+            $("ul #lista").hide();
+            let umadiv = $("div");
+            let umaClasse = $("conteudo")
+            let novoElemento = $("<p>Paragrafo lorem ipsum</p>");
+            let outroNovoElemento = $(document.createElement("p"))
+
+            $("button").addClass('destaque');
+            $('ul li').addClass('destaque');
+            $("button").removeClass('destaque');
+        });
+        
+        $('[ativo="sim"]').addClass("destaque")
+       })
+    </script>
+    
+    
 </body>
 
 </html>
