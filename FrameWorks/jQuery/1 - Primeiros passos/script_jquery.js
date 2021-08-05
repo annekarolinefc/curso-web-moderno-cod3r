@@ -7,6 +7,14 @@ let paragrafos = $("p")
 //SELECIONANDO PELA CLASSE
 let itens = $(".itens")
 
+//LOCALIZANDO ELEMENTOS
+//jQuery(...) -> função CRIA OBJETO jQuery
+$( ) //forma mais comum de utilizar
+//necessidade de incluir um seletor
+$('h1')
+$('div')
+
+
 //SELECIONANDO PELO ID
 let porId = $("#campoX")
 
