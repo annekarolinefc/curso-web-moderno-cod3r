@@ -23,8 +23,10 @@ if (pessoa.idade >= 18) {
     console.log("é maior de idade")
     pessoa.ehMaiorDeIdade = true
     console.log(`É maior de idade: ${pessoa.ehMaiorDeIdade}`)
+    console.log("Entrou no if")
 } else {
     console.log("é menor de idade")
     pessoa.ehMaiorDeIdade = false
     console.log(`É maior de idade: ${pessoa.ehMaiorDeIdade}`)
+    console.log("Entrou no else")
 }
