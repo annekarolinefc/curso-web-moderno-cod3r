@@ -22,5 +22,6 @@ console.log(age)
 
 firstName = "Maria"
     //age = 29 DARÁ ERRO - NAO DA PARA ALTERAR CONSTANTE
+    // CONST é imutáveç
 console.log(firstName)
 console.log(age)
