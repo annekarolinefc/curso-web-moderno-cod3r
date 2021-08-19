@@ -6,3 +6,7 @@ console.log(isAtivo);
 
 isAtivo = 1;
 console.log(isAtivo)
+
+
+const ehMaiorDeIdade = true
+console.log(ehMaiorDeIdade)
